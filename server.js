@@ -25,7 +25,7 @@ cors_proxy
 		originBlacklist: originBlacklist,
 		originWhitelist: originWhitelist,
 		//requireHeader: ['origin', 'x-requested-with'],
-		requireHeader: false,
+		requireHeader: null,
 		checkRateLimit: checkRateLimit,
 		removeHeaders: [
 			'cookie',
